@@ -1,0 +1,33 @@
+#header{
+    padding: 10px;
+    padding-bottom: solid 10px ;
+    border-bottom: 5px solid red;
+    color: cadetblue;
+}
+#nav{
+    float: left;
+    padding: 10px;
+}
+
+#aside{
+    float: left;
+    padding: 10px;
+}
+#aside h3{
+    color: pink;
+    padding: 5px;
+    margin: auto;
+} 
+#aside input{
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    width: 500px;
+}
+
+#aside button{
+    padding: 5px;
+    margin: 5px;
+    text-align: left;
+    background-color: rgb(128, 223, 142);
+}

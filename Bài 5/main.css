@@ -1,0 +1,11 @@
+#bacground{
+    padding: 30px;
+    background-color: antiquewhite;
+    max-width: 300px;
+    margin: auto;
+}
+
+#bacground .left{
+    padding: 10px;
+    margin: auto;
+}

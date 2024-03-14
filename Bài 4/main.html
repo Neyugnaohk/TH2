@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="tongthe">
+        <div class="header">
+            <h1>TÍNH CHỈ SỐ BMI</h1>
+        </div>
+        <div class="body">
+            <span>
+                <p>Nhập cân nặng ?</p>
+                <input type="text" id="a">
+                <br>
+                <p>Nhập chiều cao? (met) </p>
+                <input type="text" id="b">
+                <br>
+                <p> Chọn loại tuổi? </p>
+                <select  id="loaituoi">
+                    <option >Trung Niên</option>
+                    <option >Trung niên, Già lớn tuổi</option>
+                    <option >Già, lớn tuổi</option>
+                </select>
+                <br>
+                <button onclick="tinhBMI()" > Tính BMI </button>
+                <h3> Kết quả là: </h3>
+                <span id="bmi" class="front1" ></span>
+                <br>
+                <span id="ketqua" class="front2"></span>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

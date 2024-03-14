@@ -1,0 +1,54 @@
+#background {
+    justify-content: center;
+    text-align: center;
+}
+
+#background h1{
+    text-align: center;
+    color: pink;
+}
+
+#background p{
+    color: green;
+}
+
+#padding{
+    background-color: rgb(237, 237, 237);
+    padding: 30px;
+    margin: 0px auto;
+    max-width: 960px;
+    justify-content: center;
+    text-align: center;
+}
+#padding input{
+    width: 300px;
+    padding: 20px;
+    margin: auto ;
+}
+
+#padding select{
+    width: 345px;
+    padding: 20px;
+    margin:  auto;
+}
+
+.button{
+    background-color: rgb(0, 255, 255); 
+    padding: 25px;
+    width: 300px;
+}
+
+#padding1{
+    background-color: rgb(237, 237, 237);
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    max-width: 960px;
+}
+
+#padding1 input{
+    width: 700px;
+    height: 200px;
+    padding: auto;
+    margin: auto;
+}

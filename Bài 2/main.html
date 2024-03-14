@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="background">
+        <h1> ĐÓNG GÓP Ý KIẾN VỀ SẢN PHẨM</h1>
+        <p> Góp ý cảu bạn sẽ được chúng tôi xem xét, vui lòng nhập tiếng việt có dấu</p>
+        <p> Các ý kiến đóng nên viết chi tiết rõ ràng, kèm theo các minh chứng xác thực thời gian và địa điểm ( nếu có ) </p>
+    </div>
+
+    <div id="padding">
+        <input type="text" placeholder="Họ và tên" id="hovaten" value>
+        <input type="text" placeholder="Mã thẻ" id="mathe" value>
+    </div>
+    <div id="padding">
+        <input type="tel" placeholder="Số điện thoại" id="sodienthoai" value>
+        <input type="email" placeholder="E-mail" id="Email" value>
+    </div>
+    <div id="padding">
+        <select  id="loaikh">
+            <option value="0" id="loaikh" >Chọn loại khách hàng</option>
+            <option value="Normal" id="loaikh" >Normal</option>
+            <option value="VIP" id="loaikh" >VIP</option>
+            <option value="SVIP" id="loaikh" >SVIP</option>
+        </select>
+        <input type="text" placeholder="Mã hóa đơn" id="hoadon" value>
+    </div>
+    <div id="padding1">
+        <input type="text" placeholder="Nhập chi tiết mô tả" id="detail" value >
+    </div >
+    <div id="padding1">
+        <button onclick="thongtin()" class="button">Gửi góp ý</button>
+    </div>
+  
+</body>
+</html>
